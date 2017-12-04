@@ -1,3 +1,4 @@
+
 <div class="card mb-3">
     <div class="card-header">
         <i class="fa fa-table"></i> Thêm bài viết
@@ -6,12 +7,16 @@
         <form action="?controller=post&action=edit&post_id=0" method="post" enctype="multipart/form-data">
             <div class="form-group row">
                 <label class="col-sm-2 col-form-label" for="featured_img">Hình ảnh</label>
-                <div class="col-sm-10">
-                    <div class="input-append">
-                        <input id="fieldID" type="text" value="">
-                        <a href="<?php echo URL_ROOT.ROOT_FOLDER ?>/filemanager/dialog.php?type=1&amp;field_id=fieldID&amp;relative_url=1" class="btn iframe-btn" type="button">Select</a>
+                <div class="col-sm-6">
+                    <div class="input-group">
+                        <span class="input-group-addon post-preview-img" data-toggle="popover" title="Ảnh đã chọn" data-content="">
+                            <i class="fa fa-eye"></i>
+                        </span>
+                        <input id="fieldID" type="text" class="form-control" value="" readonly>
+                        <span class="input-group-btn">
+                            <button onclick="open_popup('<?php echo URL_ROOT.ROOT_FOLDER ?>/filemanager/dialog.php?type=1&popup=1&field_id=fieldID')" class="btn btn-primary iframe-btn" type="button">Select</button>
+                        </span>
                     </div>
-                    <button data-izimodal-iframeurl="{{url('tinymce')}}/filemanager/dialog.php?type=1" data-izimodal-open="#modal-iframe">Modal</button>
                 </div>
             </div>
             <div class="form-group row">
@@ -30,7 +35,7 @@
             <div class="form-group row">
                 <label class="col-sm-2 col-form-label" for="cat_parent">Danh mục</label>
                 <div class="col-sm-10 select">
-                    <select name="cat_parent" id="cat_parent" class="auto-width form-control">
+                    <select name="cat_parent" id="cat_parent" class="chosen-select auto-width form-control">
                         <option value="">-- Chọn danh mục --</option>
                     </select>
                 </div>
@@ -66,7 +71,8 @@
                 </div>
             </div>
             <input type="hidden" value="" name="token">
-            <input type="hidden" value="" name="token">
         </form>
     </div>
 </div>
+
+

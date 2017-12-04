@@ -13,10 +13,10 @@
     <link href="<?php echo VENDOR_PATH ?>datatables/dataTables.bootstrap4.css" rel="stylesheet">
     <!-- Custom styles for this template-->
     <link href="<?php echo CSS_PATH ?>sb-admin.css" rel="stylesheet">
+    <!-- Chossen Jquery CSS-->
+    <link href="/tpblog/assets/chosen_v1.8.2/chosen.min.css" rel="stylesheet">
     <!-- CK Editor -->
     <script src="<?php echo ASSETS_PATH ?>/ckeditor/ckeditor.js"></script>
-    <script src="<?php echo JS_PATH ?>main.js" type="text/javascript" charset="utf-8" async defer></script>
-
 </head>
 <body class="fixed-nav sticky-footer bg-dark" id="page-top">
 <?php include_once(SITE_PATH . '/includes/_header.php'); ?>
@@ -67,6 +67,8 @@
     <script src="<?php echo JS_PATH ?>sb-admin.min.js"></script>
     <!-- Custom scripts for this page-->
     <script src="<?php echo JS_PATH ?>sb-admin-datatables.min.js"></script>
+    <script src="/tpblog/assets/chosen_v1.8.2/chosen.jquery.min.js"></script>
+    <script src="<?php echo JS_PATH ?>main.js" type="text/javascript" charset="utf-8" async defer></script>
     <script>
         CKEDITOR.replace( 'post_content' ,{
             filebrowserBrowseUrl : '<?php echo URL_ROOT.ROOT_FOLDER ?>/filemanager/dialog.php?type=2&editor=ckeditor&fldr=',
