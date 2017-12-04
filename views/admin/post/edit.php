@@ -7,6 +7,10 @@
             <div class="form-group row">
                 <label class="col-sm-2 col-form-label" for="featured_img">Hình ảnh</label>
                 <div class="col-sm-10">
+                    <div class="input-append">
+                        <input id="fieldID" type="text" value="">
+                        <a href="<?php echo URL_ROOT.ROOT_FOLDER ?>/filemanager/dialog.php?type=1&amp;field_id=fieldID&amp;relative_url=1" class="btn iframe-btn" type="button">Select</a>
+                    </div>
                     <button data-izimodal-iframeurl="{{url('tinymce')}}/filemanager/dialog.php?type=1" data-izimodal-open="#modal-iframe">Modal</button>
                 </div>
             </div>
@@ -40,7 +44,7 @@
             <div class="form-group row">
                 <label class="col-sm-2 col-form-label" for="post_content">Nội dung</label>
                 <div class="col-sm-10 select">
-                    <textarea class="form-control" id="post_content" name="post_content" class="active_tinymce" rows="5"><?php echo isset($post) ? $post['content'] : '' ?></textarea>
+                    <textarea class="form-control ckeditor" id="post_content" name="post_content" rows="5"><?php echo isset($post) ? $post['content'] : '' ?></textarea>
                 </div>
             </div>
             <div class="form-group row">

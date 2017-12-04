@@ -7,13 +7,13 @@
             </li>
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Charts">
                 <a class="nav-link" href="?controller=post&action=index">
-                <i class="fa fa-file-text-o"></i>
+                <i class="fa fa-file-text-o fa-fw"></i>
                 <span class="nav-link-text">Bài viết</span>
                 </a>
             </li>
             <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Tables">
                 <a class="nav-link" href="?controller=category&action=index">
-                <i class="fa fa-folder-o"></i>
+                <i class="fa fa-folder-o fa-fw"></i>
                 <span class="nav-link-text">Danh mục</span>
                 </a>
             </li>
