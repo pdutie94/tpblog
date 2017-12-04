@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ac2de29-03d2-4166-88d9-1c143b945e8a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/css/chosen.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/chosen.jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/main.js" afterPath="$PROJECT_DIR$/assets/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/master.php" afterPath="$PROJECT_DIR$/views/admin/master.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/admin/post/edit.php" afterPath="$PROJECT_DIR$/views/admin/post/edit.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/css/chosen.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/js/chosen.jquery.min.js" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -261,12 +256,12 @@
       <workItem from="1511971758611" duration="7092000" />
       <workItem from="1512020568955" duration="608000" />
       <workItem from="1512052423621" duration="3089000" />
-      <workItem from="1512403984525" duration="4844000" />
+      <workItem from="1512403984525" duration="5457000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41890000" />
+    <option name="totallyTimeSpent" value="42503000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="75" y="14" width="1303" height="780" extended-state="6" />
